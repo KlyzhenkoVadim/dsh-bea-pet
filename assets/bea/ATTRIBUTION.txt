@@ -1,0 +1,6 @@
+Character, original models, textures and animations: Supercell / Brawl Stars.
+Source: https://github.com/tailsjs/brawl-stars-assets/tree/master/24.142/sc3d
+Updated freckle texture: https://github.com/tailsjs/brawl-stars-assets/blob/master/53.166/sc3d/bea_tex.pvr
+Facial eyes reconstructed as surface decals for this fan-made pet.
+SCW parser: BlaCoiso, https://github.com/BlaCoiso/scw_parse (GPL-3.0).
+Prepared for personal fan use; not endorsed by Supercell or DeepSeek.
