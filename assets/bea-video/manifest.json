@@ -1,0 +1,111 @@
+{
+  "fps": 30,
+  "width": 640,
+  "height": 360,
+  "clips": [
+    {
+      "name": "bea-idle",
+      "frames": 120,
+      "duration": 4.0,
+      "bbox": [
+        243,
+        93,
+        393,
+        335
+      ],
+      "source": "bea_idle.scw",
+      "native": true
+    },
+    {
+      "name": "bea-walk",
+      "frames": 108,
+      "duration": 3.6,
+      "bbox": [
+        221,
+        86,
+        398,
+        337
+      ],
+      "source": "bea_walk.scw",
+      "native": true
+    },
+    {
+      "name": "bea-attack",
+      "frames": 120,
+      "duration": 4.0,
+      "bbox": [
+        238,
+        91,
+        394,
+        335
+      ],
+      "source": "bea_attack.scw",
+      "native": true
+    },
+    {
+      "name": "bea-reload",
+      "frames": 75,
+      "duration": 2.5,
+      "bbox": [
+        245,
+        93,
+        393,
+        335
+      ],
+      "source": "bea_reload.scw",
+      "native": true
+    },
+    {
+      "name": "bea-win",
+      "frames": 160,
+      "duration": 5.333333333333333,
+      "bbox": [
+        193,
+        29,
+        407,
+        335
+      ],
+      "source": "bea_win.scw",
+      "native": true
+    },
+    {
+      "name": "bea-lose",
+      "frames": 61,
+      "duration": 2.033333333333333,
+      "bbox": [
+        239,
+        93,
+        396,
+        335
+      ],
+      "source": "bea_lose.scw",
+      "native": true
+    },
+    {
+      "name": "bea-turn",
+      "frames": 36,
+      "duration": 1.2,
+      "bbox": [
+        242,
+        91,
+        420,
+        336
+      ],
+      "source": "bea_idle.scw",
+      "native": false
+    },
+    {
+      "name": "bea-drag",
+      "frames": 45,
+      "duration": 1.5,
+      "bbox": [
+        210,
+        93,
+        393,
+        335
+      ],
+      "source": "bea_idle.scw",
+      "native": false
+    }
+  ]
+}

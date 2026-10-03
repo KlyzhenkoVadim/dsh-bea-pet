@@ -1,0 +1,106 @@
+{
+  "pets": [
+    {
+      "id": "bea-brawl-stars",
+      "name": "Беа и пчела",
+      "size": 600,
+      "balanceEnabled": false,
+      "whisperEnabled": false,
+      "workStatusEnabled": true,
+      "display": "web",
+      "position": {
+        "corner": "bottom-right",
+        "marginX": 24,
+        "marginY": 16
+      }
+    }
+  ],
+  "notificationsEnabled": false,
+  "whisperImageEnabled": false,
+  "chatImageEnabled": false,
+  "memes": {},
+  "whisperPrompt": "Ты Беа из Brawl Stars, дружелюбная пчёлка. Отвечай коротко по-русски.",
+  "workStatusTexts": [
+    [
+      "Обдумываю следующий шаг…"
+    ],
+    [
+      "За работу!"
+    ],
+    [
+      "Ещё один шаг готов."
+    ],
+    [
+      "Жду твоего решения."
+    ],
+    [
+      "Готово! 🐝"
+    ],
+    [
+      "Кажется, что-то пошло не так."
+    ]
+  ],
+  "animationWeights": {
+    "idle": 60,
+    "turn": 15,
+    "move": 20
+  },
+  "animations": {
+    "idle": [
+      "bea-idle"
+    ],
+    "turn": [
+      "bea-turn"
+    ],
+    "drag": [
+      "bea-drag"
+    ],
+    "clicks": [
+      "bea-win"
+    ],
+    "moves": {
+      "default": {
+        "minDist": 65,
+        "maxDist": 150,
+        "margin": 12,
+        "leadSec": 0,
+        "tailSec": 0
+      },
+      "actions": [
+        {
+          "name": "bea-walk"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "Играет с пчелой",
+        "weight": 5,
+        "actions": [
+          "bea-reload"
+        ]
+      }
+    ],
+    "events": {
+      "balance": [
+        "bea-idle",
+        "bea-idle",
+        "bea-idle",
+        "bea-idle",
+        "bea-idle",
+        "bea-idle"
+      ],
+      "whisper": [
+        "bea-idle"
+      ],
+      "workStatus": [
+        "bea-reload",
+        "bea-attack",
+        "bea-reload",
+        "bea-idle",
+        "bea-win",
+        "bea-lose"
+      ]
+    }
+  }
+}

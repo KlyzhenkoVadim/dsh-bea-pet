@@ -1,0 +1,8 @@
+Bea, the bee, model, texture and source skeletal animations: Supercell / Brawl Stars.
+Source archive: https://github.com/tailsjs/brawl-stars-assets
+Texture reference: https://github.com/tailsjs/brawl-stars-assets/blob/master/53.166/sc3d/bea_tex.pvr
+Eyes are reconstructed head-bound surface decals.
+Idle, walk, attack, reload, win, lose use game skeletal keyframes at 30 fps.
+Turn is a camera rotation. Drag is a reconstructed blend into the single game pushback pose.
+The accompanying bee uses its game idle animation with a procedural floating offset.
+Game assets are not covered by the engine MIT license. Personal fan project, not an official Supercell product.

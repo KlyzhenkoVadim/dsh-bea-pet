@@ -1,47 +1,40 @@
 {
   "name": "bea-harness-pet",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "private": true,
   "type": "module",
-  "description": "Bea Brawl Stars companion for DeepSeek Harness",
+  "description": "Bea animated companion pack for dsh-pet and DeepSeek Harness",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./client": "./lib/client.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./package.json": "./package.json"
   },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web",
-      "inject": [
-        "@deepseek-ai/dsh-client-ui-layout"
-      ]
     }
   },
   "dependencies": {
-    "@deepseek-ai/schemastery": "^3.18.1",
-    "image-dimensions": "2.5.1",
-    "sharp": "0.35.3"
+    "dsh-pet": "0.3.1"
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.0.4",
-    "@deepseek-ai/dsh-settings": "0.2.0-rc.2",
-    "@deepseek-ai/dsh-home-paths": "0.2.0-rc.2",
-    "@deepseek-ai/dsh-subprocess": "0.2.0-rc.2",
-    "@deepseek-ai/dsh-native-command": "0.2.0-rc.2"
+    "@deepseek-ai/dsh-home-paths": "0.2.0-rc.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   },
   "files": [
     "lib",
-    "assets",
+    "assets/bea-video",
+    "settings/bea-config.json",
     "cordis.patch.yml",
     "README.md",
+    "ATTRIBUTION.txt",
     "UPSTREAM-LICENSE.txt"
   ],
   "scripts": {
-    "setup": "node scripts/install.mjs"
+    "setup": "node scripts/install.mjs",
+    "check": "node scripts/install.mjs --check"
   }
 }

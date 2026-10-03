@@ -1,7 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Luv061211
-Copyright (c) DeepSeek AI (DeepSeek Harness, https://github.com/deepseek-ai/deepseek-harness)
+Copyright (c) 2026 PC2005-cloud
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
